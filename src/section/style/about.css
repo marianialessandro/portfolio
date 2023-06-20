@@ -1,0 +1,21 @@
+#about{
+	height: 85vh;
+}
+
+#foto{
+	height: 300px;
+	width: 300px;
+
+	/*margin-right: 95px;*/
+	margin-left: 80px;
+}
+
+@media screen and (max-width: 820px) {
+	#foto{
+		height: 270px;
+		width: 270px;
+
+		margin-top: 25px;
+		margin-left: -10px;
+	}
+}
